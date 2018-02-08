@@ -1,0 +1,2 @@
+# FridayAPI
+FridayAI API 
