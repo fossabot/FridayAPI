@@ -1,7 +1,7 @@
 var express    = require('express');        // call express
 var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
-var apiai = require('apiai')('fef09610e37945718629078f621ac237');
+var apiai = require('apiai')(process.env.API_token);
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
