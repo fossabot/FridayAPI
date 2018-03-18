@@ -1,0 +1,13 @@
+{
+  "name": "FridayAI API Service",
+  "description": "An API FridayAI Intelligent Service",
+  "repository": "https://github.com/IntelligentThings/FridayAPI",
+  "keywords": ["ai", "api.ai", "bot", "w3c","discord","mail"],
+  "env": {
+    "API_token": {
+      "description": "Token for discord",
+      "value": ""
+}
+},
+  "image": "heroku/nodejs"
+}
