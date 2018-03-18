@@ -1,30 +1,20 @@
 {
-  "name": "fridayapi",
+  "name": "FridayAPI",
+  "description": "An artificial intelligence API",
   "version": "1.0.0",
-  "description": "FridayAPI for everyone",
   "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
-    "test": "force"
+    "start": "node bot.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IntelligentThings/FridayAPI.git"
-  },
-  "keywords": [
-    "api",
-    "friday"
-  ],
-  "author": "Ahmetcan Aksu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IntelligentThings/FridayAPI/issues"
-  },
-  "homepage": "https://github.com/IntelligentThings/FridayAPI#readme"
- "dependencies": {
-    "apiai": "^4.0.3",
+  "dependencies": {
+     "apiai": "^4.0.3",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "instagram-profile-picture": "^1.0.1"
+    
   }
-  
-  }
+}
