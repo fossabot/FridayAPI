@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/IntelligentThings/FridayAPI#readme"
  "dependencies": {
-    "request": "2.81.0",
+    "request": "2.81.0"
   }
   
   }
