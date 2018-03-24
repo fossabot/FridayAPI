@@ -22,7 +22,7 @@ router.use(function(req, res, next) {
 
 app.get('/user/:userid/msg/:msgid', function (req, res) {
 	if(!api.includes(req.params.userid)) {
-		return res.send('Bu arayüzü kullanamazsınız' + req.params.userid)
+		return res.send('Bu arayüzü kullanamazsınız. Sistemde kayıtlı değilsiniz geliştiriciye danışın.')
 		} 
 let apiaiReq = apiai.textRequest(`${req.params.msgid}`, {
       sessionId: `${req.params.userid}`
