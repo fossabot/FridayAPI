@@ -3,6 +3,8 @@ var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var apiai = require('apiai')(process.env.API_token);
 
+var api = '@Queen\'s Crown';
+
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -19,6 +21,9 @@ router.use(function(req, res, next) {
 
 
 app.get('/user/:userid/msg/:msgid', function (req, res) {
+	if(!api.includes(req.params.userid)) {
+		return res.send('Bu arayüzü kullanamazsınız')
+	}
   console.log('Mesaj: ' + req.params.msgid)
   console.log('Kullanıcı: ' + req.params.userid)
   
