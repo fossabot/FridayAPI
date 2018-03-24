@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/IntelligentThings/FridayAPI/issues"
   },
-  "homepage": "https://github.com/IntelligentThings/FridayAPI#readme"
+  "homepage": "https://github.com/IntelligentThings/FridayAPI#readme" ,
  "dependencies": {
     "request": "^2.81.0"
   }
