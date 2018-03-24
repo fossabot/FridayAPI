@@ -22,8 +22,8 @@ router.use(function(req, res, next) {
 
 app.get('/user/:userid/msg/:msgid', function (req, res) {
 	if(!api.includes(req.params.userid)) {
-		return res.send('Bu arayüzü kullanamazsınız')
-	}
+		return res.send('Bu arayüzü kullanamazsınız' + req.params.userid)
+		}
   console.log('Mesaj: ' + req.params.msgid)
   console.log('Kullanıcı: ' + req.params.userid)
   
