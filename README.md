@@ -6,4 +6,4 @@ How can I use This AI ?
 
 You can try AI on 
 
-[![Try]](https://console.dialogflow.com/api-client/demo/embedded/fridayai "Try")
+[!Try](https://console.dialogflow.com/api-client/demo/embedded/fridayai "Try")
