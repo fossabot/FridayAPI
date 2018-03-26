@@ -9,7 +9,7 @@ You can try AI on
 
 [Click me !](https://console.dialogflow.com/api-client/demo/embedded/fridayai "Try FridayAI")
 
-#Example
+**Example**
 
 
 ```
