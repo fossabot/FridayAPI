@@ -9,8 +9,12 @@ You can try AI on
 
 [Click me !](https://console.dialogflow.com/api-client/demo/embedded/fridayai "Try FridayAI")
 
+#Example
 
-`var request = require('request');
+
+```
+
+var request = require('request');
 var fridayapi = 'https://fridaymain.herokuapp.com'
 var fridayapikey = 'Some api key'
 
@@ -18,4 +22,5 @@ var fridayapikey = 'Some api key'
 request(`${fridayapi}/user/${fridayapikey}/msg/(message)}`, function (error, response, body) {
 console.log(body)
 })
-`
+
+```
