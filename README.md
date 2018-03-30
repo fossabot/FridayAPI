@@ -12,38 +12,9 @@ You can try AI on
 
 
 **Headers:**
+				
 
-
-
-**API EKLEME**
-
-/create
-	/ddid/**DISCORD ID**
-			/isim/**API USER NAME SURNAME**
-					/mail/**SET MAİL ADRESS**
-							/api/**SET API KEY**/
-
-
-							
-**Cevaplar**
-
-		Status      'İşlem Hakkında Bilgi'
-		Gisim       'Kullanıcı İsmi'
-		signDate    'Kullanıcı Kayıt olduğu tarih'
-		discordid   'Kullanıcı Discord İd'si'
-		Mail 		'Kullanıcı Mail Adresi'
-		apiKey 		'Kullanıcı API KEY'
-		
-Sunucu Cevap		 **Cevapdan Sonra Gelir**
-			
-		Type   		'Sunucu işlem girdisi'
-		cloudDate 	'Sunucu tarih saat ve saniyesi'
-		Case		'İşlem numarası ' ** HATA BİLDİRİMİ İÇİN KULLANILIR **
-		Version 	'Sunucu Versiyon'			
-			
--							
-
-**API TEST ETME**
+**API KULLANICI TEST ETME**
 
 /check
 	/apikey/**API KEY**
