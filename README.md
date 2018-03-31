@@ -1,7 +1,7 @@
 # FridayAPI
 FridayAI API 
 
-**How can I use This AI ?**
+**How can I use This API ?**
 
 -You have to get API Key by developer . To do that you have to mail your reason to infofridayapp@gmail.com
 
@@ -48,7 +48,7 @@ Cevaplar
 
 -Boş veya hatalı yazım
 
-Cevaplar
+Hata Cevabı
 				
 		       Status 'Hata ismi'
 		
@@ -75,7 +75,7 @@ Cevaplar
 
 -Boş veya hatalı yazım
 
-Cevaplar
+Hata Cevabı
 				
 		   	Status 'Hata ismi'
 		
