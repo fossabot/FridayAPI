@@ -57,12 +57,12 @@ Cevaplar
 -Bilgi			
 
 		        Status      		'İşlem Hakkında Bilgi'
-			Konum				'Belirtilen konum'
-			Zamand				'Zaman dilimi'
-			Derece				'Belirtilen konum derece bilgisi'
-			Hissedilen 			'Belirtilen konum hissedilen sıcaklık bilgisi'
-			Rüzgar     			'Belirtilen konum rüzgar bilgisi'
-			Nem					'Belirtilen konum nem bilgisi'
+			Konum			'Belirtilen konum'
+			Zamand			'Zaman dilimi'
+			Derece			'Belirtilen konum derece bilgisi'
+			Hissedilen 		'Belirtilen konum hissedilen sıcaklık bilgisi'
+			Rüzgar     		'Belirtilen konum rüzgar bilgisi'
+			Nem			'Belirtilen konum nem bilgisi'
 
 -
 
@@ -95,7 +95,7 @@ Cevaplar Sonrası (Global Header Server Durumu) **CHECK İŞLEMİ DIŞINDA HER �
 		
 		
 	        Kullanıcı       'Kullanıcı İsmi'
-	        Yourapi          'Kullanıcı API Key'i'
+	        Yourapi         'Kullanıcı API Key'i'
 		Mail 		'Kullanıcı Mail Adresi'
 		Disid 		'Kullanıcı Discord ID'si'
 		kytarih		'Kullanıcı Kayıt olduğu tarih' 
