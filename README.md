@@ -23,12 +23,12 @@ You can try AI on
 Cevaplar
 
 	
-	    Status      'İşlem Hakkında Bilgi'
+	        Status      'İşlem Hakkında Bilgi'
 		Gisim       'Kullanıcı İsmi'
 		signDate    'Kullanıcı Kayıt olduğu tarih'
 		discordid   'Kullanıcı Discord İd'si'
-		Mail 		'Kullanıcı Mail Adresi'
-		apiKey 		'Kullanıcı API KEY'
+		Mail 	    'Kullanıcı Mail Adresi'
+		apiKey 	    'Kullanıcı API KEY'
 	 
 Sunucu Cevap		 **Cevapdan Sonra Gelir**
 			
@@ -50,13 +50,13 @@ Cevaplar
 
 Cevaplar
 				
-		    Status 'Hata ismi'
+		       Status 'Hata ismi'
 		
 -		
 
 -Bilgi			
 
-		    Status      		'İşlem Hakkında Bilgi'
+		        Status      		'İşlem Hakkında Bilgi'
 			Konum				'Belirtilen konum'
 			Zamand				'Zaman dilimi'
 			Derece				'Belirtilen konum derece bilgisi'
@@ -77,15 +77,15 @@ Cevaplar
 
 Cevaplar
 				
-		    Status 'Hata ismi'
+		   	Status 'Hata ismi'
 		
 -	
 	
 -Bilgi
 	
-		Status			'İşlem Hakkında Bilgi',
-		YourMessage		'Sizin mesajınız' 
-		FridayAI		'Friday'ın mesajı'
+			Status			'İşlem Hakkında Bilgi',
+			YourMessage		'Sizin mesajınız' 
+			FridayAI		'Friday'ın mesajı'
 	
 -
 
@@ -94,8 +94,8 @@ Cevaplar
 Cevaplar Sonrası (Global Header Server Durumu) **CHECK İŞLEMİ DIŞINDA HER İŞLEMDEN SONRA BULUNUR**
 		
 		
-		Kullanıcı   'Kullanıcı İsmi'
-	    Yourapi 	'Kullanıcı API Key'i'
+	        Kullanıcı       'Kullanıcı İsmi'
+	        Yourapi          'Kullanıcı API Key'i'
 		Mail 		'Kullanıcı Mail Adresi'
 		Disid 		'Kullanıcı Discord ID'si'
 		kytarih		'Kullanıcı Kayıt olduğu tarih' 
