@@ -7,7 +7,7 @@
 
 $ npm i fridayapi
 
-$ npm heyfriday
+$ npm test.js
 
 ```
 
@@ -18,7 +18,7 @@ FridayAI API
 
 ## How can I use This AI ?
 
--You have to get API Key by developer . To do that you have to mail your reason to infofridayapp@gmail.com
+You have to get API Key by developer . To do that you have to mail your reason to infofridayapp@gmail.com
 
 You can try AI on  
 
@@ -29,13 +29,21 @@ You can try AI on
 
 ```js
 
-var request = require('request');
-var fridayapi = 'https://fridaymain.herokuapp.com'
-var fridayapikey = 'Some api key'
 
+var Friday = require('fridayapi')
 
-request(`${fridayapi}/user/${fridayapikey}/msg/(message)}`, function (error, response, body) {
-console.log(body)
+Friday.ai('Hey Friday', 'Some strange api keys' , ai => {
+console.log(ai) 
 })
 
+/*
+Friday answers:
+- Hi how can I help ?
+*/
+
 ```
+
+Why I cant talk with friday with out api ?
+-We have our reasons :). Because of friday took years to do it like AI AI :) 
+
+No worries you can be honest with us . We're same like you but a little fat maybe ;) 
