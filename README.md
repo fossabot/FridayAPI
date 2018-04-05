@@ -47,3 +47,5 @@ Why I cant talk with friday with out api ?
 -We have our reasons :). Because of friday took years to do it like AI AI :) 
 
 No worries you can be honest with us . We're same like you but a little fat maybe ;) 
+
+Hey! Did you see that ? [We have github.io page ! all this docs stays there same but little sweet](https://intelligentthings.github.io/FridayAPI/ "See docs")
