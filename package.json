@@ -4,7 +4,7 @@
   "description": "FridayAPI for everyone",
   "main": "module.js",
   "scripts": {
-    "test": "test.js"
+    "test": "friday.js"
   },
   "repository": {
     "type": "git",
