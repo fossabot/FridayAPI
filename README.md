@@ -1,5 +1,5 @@
 # FridayAPI
-
+[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI)
 [Site](https://fridaytec.com/)
 
 
