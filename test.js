@@ -1,4 +1,4 @@
-var Friday = require('./module.js')
+var Friday = require('fridayapi')
 
 Friday.ai('Hey','test', ai => {
 	console.log(ai)
