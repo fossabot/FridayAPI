@@ -3,8 +3,6 @@
   "version": "2.0.1",
   "description": "FridayAPI for everyone",
   "main": "module.js",
-  "scripts": {
-    "test": "friday.js"
   },
   "repository": {
     "type": "git",
