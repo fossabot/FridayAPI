@@ -3,7 +3,6 @@
   "version": "2.0.1",
   "description": "FridayAPI for everyone",
   "main": "module.js",
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IntelligentThings/FridayAPI.git"
