@@ -1,5 +1,5 @@
 # FridayAPI
-[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![npm stable version](https://img.shields.io/npm/v/node-fetch.svg?style=flat-square)](https://www.npmjs.com/package/node-fetch)[![npm stable version](https://img.shields.io/badge/FridayAI-v.2.9-ff69b4.svg)](https://fridaytec.com)
+[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![npm stable version](https://img.shields.io/npm/v/node-fetch.svg?style=flat-square)](https://www.npmjs.com/package/node-fetch) [![FridayAI version](https://img.shields.io/badge/FridayAI-v.2.9-ff69b4.svg)](https://fridaytec.com)
 
 
 ```shell
