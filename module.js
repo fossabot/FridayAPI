@@ -16,7 +16,7 @@ if (api === 'test') {
   
 request(`https://fridaymain.herokuapp.com/user/${api}/msg/${contentmsg}`, function (error, response, body) {
     if('TypeError') {
-        console.log(Error('FridayCloud Bir sorun ile karşılaştı ve oturumu sonlandırdı. Sunucu hatayı bildirdi.))
+        console.log(Error('FridayCloud Bir sorun ile karşılaştı ve oturumu sonlandırdı. Sunucu hatayı bildirdi.'))
        }
 ai(body)
 })
