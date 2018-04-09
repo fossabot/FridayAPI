@@ -1,6 +1,6 @@
 var Friday = require('fridayapi')
 
-Friday.ai('hey friday','Some strange numbers', ai => {
+Friday.ai('hey friday','', ai => {
 	console.log(ai)
 })
 

@@ -1,6 +1,6 @@
 {
   "name": "fridayapi",
-  "version": "3.9.9",
+  "version": "4.0.0",
   "description": "FridayAPI for everyone",
   "main": "module.js",
   "repository": {

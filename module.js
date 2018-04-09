@@ -10,6 +10,8 @@ exports.ai = async (contentmsg,api, ai) => {
 
 var msgs = contentmsg
 var msgg = msgs.replace(/\s+/g,"_");
+var apis = api
+var apisign = apis.replace(/\s+/g,"");
 
 if (msgg === '') {
     console.log (Error('Message is empty'));
@@ -20,7 +22,12 @@ if (api === '') {
   return;
   };
 
-  
+if (api.length < 9) {
+	console.log(Error('API key cannot be shorter than 9 characters'));
+	return;
+}
+
+
   
 client.get(`/msg/${api}/${msgg}`, function (err, req, res, obj) {
 

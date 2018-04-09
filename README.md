@@ -1,5 +1,5 @@
 # FridayAPI
-[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![npm stable version](https://img.shields.io/npm/v/node-fetch.svg?style=flat-square)](https://www.npmjs.com/package/node-fetch) [![FridayAI version](https://img.shields.io/badge/FridayAI-v2.9-ff69b4.svg)](https://fridaytec.com) [![FridayAPI version](https://img.shields.io/badge/FridayAPI-v3.9.9-ff69b4.svg)](https://www.npmjs.com/package/fridayapi) [![FridaySERVER](https://img.shields.io/badge/Friday%20Server-ONLINE-brightgreen.svg)](https://fridaytec.com)
+[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![FridayAI version](https://img.shields.io/badge/FridayAI-v2.9-ff69b4.svg)](https://fridaytec.com) [![FridayAPI version](https://img.shields.io/badge/FridayAPI-v4.0.0-ff69b4.svg)](https://www.npmjs.com/package/fridayapi) [![FridaySERVER](https://img.shields.io/badge/Friday%20Server-ONLINE-brightgreen.svg)](https://fridaytec.com)
 
 
 ```shell
