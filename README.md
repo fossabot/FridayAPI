@@ -1,5 +1,5 @@
 # FridayAPI
-[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![npm stable version](https://img.shields.io/npm/v/node-fetch.svg?style=flat-square)](https://www.npmjs.com/package/node-fetch) [![FridayAI version](https://img.shields.io/badge/FridayAI-v2.9-ff69b4.svg)](https://fridaytec.com) [![FridayAPI version](https://img.shields.io/badge/FridayAPI-v2.0.3-ff69b4.svg)](https://www.npmjs.com/package/fridayapi) [![FridaySERVER](https://img.shields.io/badge/Friday%20Server-ONLINE-brightgreen.svg)](https://fridaytec.com)
+[![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![npm stable version](https://img.shields.io/npm/v/node-fetch.svg?style=flat-square)](https://www.npmjs.com/package/node-fetch) [![FridayAI version](https://img.shields.io/badge/FridayAI-v2.9-ff69b4.svg)](https://fridaytec.com) [![FridayAPI version](https://img.shields.io/badge/FridayAPI-v3.9.9-ff69b4.svg)](https://www.npmjs.com/package/fridayapi) [![FridaySERVER](https://img.shields.io/badge/Friday%20Server-ONLINE-brightgreen.svg)](https://fridaytec.com)
 
 
 ```shell
@@ -48,3 +48,5 @@ Why I cant talk with friday with out api ?
 No worries you can be honest with us . We're same like you but a little fat maybe ;) 
 
 Hey! Did you see that ? [We have github.io page ! all this docs stays there same but little sweet](https://intelligentthings.github.io/FridayAPI/ "See docs")
+
+FridayAI© 2018 

@@ -1,25 +1,34 @@
-var request = require('request');
+var assert = require('assert');
+var clients = require('restify-clients');
+
+var client = clients.createJsonClient({
+  url: 'https://fserver.herokuapp.com',
+  version: '~3.9.7'
+});
 
 exports.ai = async (contentmsg,api, ai) => {
-if (contentmsg === '') {
-    console.log (Error('Bir mesaj algılanmadı'));
+
+var msgs = contentmsg
+var msgg = msgs.replace(/\s+/g,"_");
+
+if (msgg === '') {
+    console.log (Error('Message is empty'));
   return;
   };
 if (api === '') {
-    console.log (Error('Bir API KEY Girişi yapılmadı'));
+    console.log (Error('API KEY is empty'));
   return;
   };
-if (api === 'test') {
-    console.log ('TEST OK');
-  return;
-  };
+
   
-request(`https://fridaymain.herokuapp.com/user/${api}/msg/${contentmsg}`, function (error, response, body) {
-    if('TypeError') {
-        console.log(Error('FridayCloud Bir sorun ile karşılaştı ve oturumu sonlandırdı. Sunucu hatayı bildirdi.'))
-       }
-ai(body)
-})
+  
+client.get(`/msg/${api}/${msgg}`, function (err, req, res, obj) {
+
+if(obj[0].Status === 'FAIL') {
+	return console.log (Error('Wrong API KEY'));
+}
+  ai(obj[0].msg)
+});
 }
 
 //Ahmetcan Aksu 2018 

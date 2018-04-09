@@ -1,6 +1,6 @@
 {
   "name": "fridayapi",
-  "version": "2.0.3",
+  "version": "3.9.9",
   "description": "FridayAPI for everyone",
   "main": "module.js",
   "repository": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/IntelligentThings/FridayAPI#readme" ,
  "dependencies": {
-    "request": "^2.81.0"
+    "restify-clients": "^2.0.1",
+    "assert": "^1.4.1"
   }
   
   }
