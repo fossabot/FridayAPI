@@ -29,7 +29,7 @@ if (api.length < 9) {
 
 
   
-client.get(`/msg/${api}/${msgg}`, function (err, req, res, obj) {
+client.get(`/msg/${apisign}/${msgg}`, function (err, req, res, obj) {
 
 if(obj[0].Status === 'FAIL') {
 	return console.log (Error('Wrong API KEY'));
