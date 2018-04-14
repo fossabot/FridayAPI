@@ -1,5 +1,6 @@
 # FridayAPI
 [![Build Status](https://travis-ci.org/IntelligentThings/FridayAPI.svg?branch=master)](https://travis-ci.org/IntelligentThings/FridayAPI) [![FridayAI version](https://img.shields.io/badge/FridayAI-v2.9-ff69b4.svg)](https://fridaytec.com) [![FridayAPI version](https://img.shields.io/badge/FridayAPI-v4.0.0-ff69b4.svg)](https://www.npmjs.com/package/fridayapi) [![FridaySERVER](https://img.shields.io/badge/Friday%20Server-ONLINE-brightgreen.svg)](https://fridaytec.com)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FIntelligentThings%2FFridayAPI.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FIntelligentThings%2FFridayAPI?ref=badge_shield)
 
 
 ```shell
@@ -50,3 +51,7 @@ No worries you can be honest with us . We're same like you but a little fat mayb
 Hey! Did you see that ? [We have github.io page ! all this docs stays there same but little sweet](https://intelligentthings.github.io/FridayAPI/ "See docs")
 
 FridayAI© 2018 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FIntelligentThings%2FFridayAPI.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FIntelligentThings%2FFridayAPI?ref=badge_large)
